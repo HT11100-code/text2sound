@@ -6,5 +6,5 @@ def read_text(text):
     engine.runAndWait()
 
 if __name__ == "__main__":
-    text = "dog"
+    text = input("Enter the text to read: ")
     read_text(text)
